@@ -1,3 +1,30 @@
+.navbar {
+  background-color:navajowhite;
+  padding-top: -1px;
+  display:inline-flexbox;
+  border-radius: 5px;
+  border-style: ridge;
+  border-width: 1px;
+  padding-bottom: -1px;
+  opacity:0.7;
+  background-image: url("wood2.jpg");
+
+
+  
+
+
+
+}
+
+::placeholder {
+  
+    color: red;
+    font-size: 1.2em;
+    padding-right: 5cm;
+  
+}
+      
+     
 .btn-group .button {
     background-color:whitesmoke;
     border-style:ridge;
@@ -12,20 +39,33 @@
     float: right;
     width: 150px;
     height:50px;
-    cursor:progress;
+    cursor:pointer;
+    transition-duration: 0.4s;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
 }
 
 .button {
   border-radius: 5px;
 }
 
-.button-1 {
+.btn-group .button-1 {
   background-color: black;
   color: white;
-  padding: 20px 32px;
+  padding: 16px 20px;
   text-align: center;
   font-size: 16;
   border-radius: 5px;
+  cursor:pointer;
+  margin-top: 10px;
+  margin-left: 180px;
+  margin-right:  50px;
+  
 
 }
 
@@ -47,7 +87,7 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
-    opacity: 0.95;
+    opacity: 0.97;
     border-radius: 8px;
   }
 
@@ -65,12 +105,50 @@
 .img3 {
     margin-right: 90%;
     margin-top:  10%;
-    padding-bottom: -10%;
+    padding-bottom: -10px;
+    padding-top: -20px;;
     margin-bottom: -30%;
     display: block;
     border-radius: 50%;
     width: 50px;
     height: 50px;
+
+}
+
+.img4 {
+
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  margin-bottom: -240px;
+  margin-left: -180px;
+  cursor: pointer;
+
+}
+
+.img5 {
+  width: 25px;
+  height: 25px;
+  margin-left: -40px;
+  cursor: pointer;
+
+}
+
+.img6 {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-bottom:-110px ;
+  margin-left: 1050px;
+
+}
+.img7 {
+  width: 260px;
+  height: 130px;
+  margin-bottom:-280px ;
+  margin-left: 1070px;
+  border-radius: 8px;
+
 
 }
 
@@ -81,22 +159,23 @@
   font-size: 18px;
 }
 
-.s-btn{
-  position: absolute;
-  bottom: 40%;
-  left: 8%;
-  font-size: 18px;
-  border-radius: 5px;
-  background-color:#92a8d1;
-  border: none;
-  color: white;
-  padding: 3px 2px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 1px 1px;
-  cursor: pointer;
 
+
+.s-btn{
+  position:absolute;
+  
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  font-size: 14px;
+  background-color: ;
+  
+  cursor:pointer;
+  margin-top: -100px;
+  margin-left: 30px;
+  margin-right:  50px;
+  
+  
 
 }
 
@@ -111,81 +190,105 @@
 
 .container {
     position: relative;
-    padding-left: 10px;
-    padding-top: 10px ;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    width: 765px;
+    padding-left: 0.1px;
+    padding-top: 1px ;
+    padding-right: 0.1px;
+    padding-bottom: 1px;
+    width: 763px;
     height: 400px;
-    margin:60px 250px;
+    margin:60px 260px;
     border-radius: 8px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    
   
-}  
+} 
+
+a{
+  color: #000;
+  margin-left: 1100px;
+  margin-bottom: -10 cm;
+}
 .follow-us {
     padding-left: 10px;
     padding-top: 10px ;
     padding-right: 10px;
     padding-bottom: 10px;
     width: 235px;
-    height: 610px;
+    height: 450px;
     border-radius: 8px;
     background-color: burlywood;
     background-position: 50px 30px ;
     border-color: black;
     margin-left:1070px;
-    margin-top: -470px;
+    margin-top: -350px;
+    border-width: 3px;
+    border-style:solid;
 }
 
-.s-views{
-    
+h5.follow-us {
+  cursor: pointer;
+ 
+
 }
 
 .views-1 {
-    padding: 0 100px;
-    height: 50vh;
+    
+    
     display: inline-flex;
-    align-items: center;
-    padding-top: 120px;
+    
+    padding-top: 30px;
     padding-left: 30px;
-    padding-bottom: 30px;
-    scroll-padding-right: 30px;
+    padding-bottom: 50px;
+    border-style: solid;
+    border-width: 2px;
+    
     position:relative;
-    max-width:600px;
-    max-height: 300px;
+    max-width:115vh;
+    max-height: 35vh;
     
     
     border-radius: 8px;
-    background-color: teal;
+    background-color:oldlace;
     
     border-color: black;
     margin-left: 265px;
-    margin-top: -30px;
-    background-color: blueviolet;
-    text-align:center;
+    margin-top:-155px;
+    
+    text-align:left;
     
     
 }
-
 .views-2{
-    left: 10px;
-    padding:50px;
+    display: inline-flex;
+    padding-left: 30px;
+    padding-bottom: 70px;
+    padding-top: 30px;
+
+    
+    
     position:relative;
-    width:850px;
-    height: 250px;
+    max-width: 115vh;
+    max-height: 35vh;
     border-radius: 8px;
-    background-color: teal;
-    margin:2px 2px;
-    position: relative;
+    background-color:oldlace;
     border-color: black;
     margin-left: 265px;
-    margin-top: auto;
-    background-color: teal;
-    text-align: center;
-    margin-top: -20px;
+    margin-top: 30px;
+    border-style: solid;
+    border-width: 2px;
+    text-align: left;
+    
 
 }
 
-#t1 {
+
+
+.pointer {
+  cursor: pointer;
+  margin-top: -20px;
  
 }
 

@@ -16,11 +16,17 @@
 
 }
 
-::placeholder {
+input {
   
     color: red;
-    font-size: 1.2em;
-    padding-right: 5cm;
+    font-family:inherit;
+    font-size:20px;
+    width:350px;
+    
+    line-height:inherit;
+    padding-inline-start: inherit;
+    
+    
   
 }
       
@@ -86,6 +92,7 @@
     height: 400px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -20px;
     display: block;
     opacity: 0.97;
     border-radius: 8px;
@@ -138,15 +145,16 @@
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  margin-bottom:-110px ;
+  margin-top:-22px ;
   margin-left: 1050px;
 
 }
 .img7 {
   width: 260px;
-  height: 130px;
-  margin-bottom:-280px ;
-  margin-left: 1070px;
+  height: 150px;
+  margin-bottom: -55px ;
+  margin-top:-10px ;
+  margin-left: 1030px;
   border-radius: 8px;
 
 
@@ -196,20 +204,22 @@
     padding-bottom: 1px;
     width: 763px;
     height: 400px;
-    margin:60px 260px;
+    margin:60px 220px;
     border-radius: 8px;
     background-color: white;
     border-color: black;
-    border-style: solid;
+    margin-top: -300px;
+    
     border-width: 2px;
     
   
 } 
 
-a{
+.link {
   color: #000;
   margin-left: 1100px;
-  margin-bottom: -10 cm;
+  margin-top: 50px;
+  text-align:justify;
 }
 .follow-us {
     padding-left: 10px;
@@ -222,8 +232,8 @@ a{
     background-color: burlywood;
     background-position: 50px 30px ;
     border-color: black;
-    margin-left:1070px;
-    margin-top: -350px;
+    margin-left:1030px;
+    margin-top: 80px;
     border-width: 3px;
     border-style:solid;
 }
@@ -254,11 +264,10 @@ h5.follow-us {
     background-color:oldlace;
     
     border-color: black;
-    margin-left: 265px;
-    margin-top:-155px;
-    
+    margin-left: 222px;
     text-align:left;
-    
+    margin-top: cm;
+    bottom: 695px;
     
 }
 .views-2{
@@ -266,17 +275,14 @@ h5.follow-us {
     padding-left: 30px;
     padding-bottom: 70px;
     padding-top: 30px;
-
-    
-    
     position:relative;
     max-width: 115vh;
     max-height: 35vh;
     border-radius: 8px;
     background-color:oldlace;
     border-color: black;
-    margin-left: 265px;
-    margin-top: 30px;
+    margin-left: 222px;
+    bottom: 665px;
     border-style: solid;
     border-width: 2px;
     text-align: left;
@@ -291,6 +297,18 @@ h5.follow-us {
   margin-top: -20px;
  
 }
+
+.scroller {
+  width: 220px;
+  height: 200px;
+  overflow-y: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+  margin-left: 1030px;
+  margin-top: 80px;
+  border:groove;
+}
+
 
 
 

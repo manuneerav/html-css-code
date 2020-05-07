@@ -87,14 +87,14 @@ input {
     background-size: 75% 50%;
 }
 
-.img {
-    width: 760px;
+.container .img {
+    width: 755px;
     height: 400px;
     margin-left: auto;
     margin-right: auto;
     margin-top: -20px;
     display: block;
-    opacity: 0.97;
+    opacity: 0.9;
     border-radius: 8px;
   }
 
@@ -112,8 +112,7 @@ input {
 .img3 {
     margin-right: 90%;
     margin-top:  10%;
-    padding-bottom: -10px;
-    padding-top: -20px;;
+    
     margin-bottom: -30%;
     display: block;
     border-radius: 50%;
@@ -123,21 +122,32 @@ input {
 }
 
 .img4 {
-
   width: 25px;
   height: 25px;
   display: inline-block;
-  margin-bottom: -240px;
+  
   margin-left: -180px;
   cursor: pointer;
 
+  
+
 }
+.views-1 .img4{
+  margin-bottom: -240px;
+}
+
+.views-2 .img4{
+  margin-bottom: -260px;
+
+}
+
 
 .img5 {
   width: 25px;
   height: 25px;
   margin-left: -40px;
-  cursor: pointer;
+  cursor: pointer
+  
 
 }
 
@@ -169,23 +179,30 @@ input {
 
 
 
-.s-btn{
-  position:absolute;
-  
-  width: 100px;
-  height: 50px;
+.container .s-btn {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 10px 25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
   text-align: center;
-  font-size: 14px;
-  background-color: ;
   
-  cursor:pointer;
-  margin-top: -100px;
-  margin-left: 30px;
-  margin-right:  50px;
-  
+}
+
+.container .s-btn:hover {
+  background-color: black;
+  color: white;
+}  
   
 
-}
+
 
 
 
@@ -255,19 +272,21 @@ h5.follow-us {
     border-style: solid;
     border-width: 2px;
     
+    
     position:relative;
     max-width:115vh;
     max-height: 35vh;
     
     
     border-radius: 8px;
-    background-color:oldlace;
+    background-color:blanchedalmond;
     
     border-color: black;
     margin-left: 222px;
     text-align:left;
     margin-top: cm;
     bottom: 695px;
+    opacity: 69.7%;
     
 }
 .views-2{
@@ -279,13 +298,14 @@ h5.follow-us {
     max-width: 115vh;
     max-height: 35vh;
     border-radius: 8px;
-    background-color:oldlace;
+    background-color:blanchedalmond;
     border-color: black;
     margin-left: 222px;
     bottom: 665px;
     border-style: solid;
     border-width: 2px;
     text-align: left;
+    opacity: 69.7%;
     
 
 }

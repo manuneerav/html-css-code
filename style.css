@@ -133,11 +133,11 @@ input {
 
 }
 .views-1 .img4{
-  margin-bottom: -480px;
+  margin-bottom: -260px;
 }
 
 .views-2 .img4{
-  margin-bottom: -260px;
+  margin-bottom: -280px;
 
 }
 
@@ -168,13 +168,7 @@ input {
   border-radius: 8px;
 }
 
-/*.views-1 .img8 {
-  width: 300px;
-  height: 100px;
-  margin-top: 50%;
-  object-fit:cover ;
-  object-position:bottom ;
-}*/
+
 
 
 
@@ -283,7 +277,7 @@ h5.follow-us {
     
     position:relative;
     max-width:115vh;
-    max-height: 80vh;
+    max-height: 38vh;
     height: 800px;
     
     border-radius: 8px;

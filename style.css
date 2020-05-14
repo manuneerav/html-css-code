@@ -173,7 +173,7 @@ input {
 
 
 .new{
-  position: fixed;
+  position: relative;
   bottom: 55%;
   left: 8%;
   font-size: 18px;
@@ -182,8 +182,8 @@ input {
 
 
 .container .s-btn {
-  position: fixed;
-  top: 50%;
+  position: absolute;
+  top: 30%;
   left: 20%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -201,6 +201,7 @@ input {
 .container .s-btn:hover {
   background-color: black;
   color: white;
+  
 }  
   
 
@@ -209,14 +210,14 @@ input {
 
 
 .store {
-  position: fixed;
+  position: absolute;
   bottom: 3px;
   left: 32px;
   font-size: 18px;
 }
 
 .container {
-    position: fixed;
+    position: relative;
     padding-left: 0.1px;
     padding-top: 1px ;
     padding-right: 0.1px;
@@ -275,7 +276,7 @@ h5.follow-us {
     border-width: 2px;
     
     
-    position:fixed;
+    position:relative;
     max-width:115vh;
     max-height: 38vh;
     height: 800px;
@@ -296,7 +297,7 @@ h5.follow-us {
     padding-left: 30px;
     padding-bottom: 70px;
     padding-top: 30px;
-    position:fixed;
+    position:relative;
     max-width: 115vh;
     max-height: 38vh;
     border-radius: 8px;

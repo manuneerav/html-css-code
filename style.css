@@ -1,20 +1,27 @@
 .navbar {
-  background-color:navajowhite;
+  overflow: hidden;
+  position:fixed;
+  top:0;
+  width: 100%;
+  background-color:rgba(255,255,255,0.9);;
   padding-top: -1px;
-  display:inline-flexbox;
-  border-radius: 5px;
+  display:block;
+  left: 0;
   border-style: ridge;
   border-width: 1px;
+  border-color: black;
   padding-bottom: -1px;
   opacity:0.7;
-  background-image: url("wood2.jpg");
-
-
   
-
-
-
+  z-index: 1000;
 }
+
+body {
+  background: whitesmoke;
+}
+
+
+
 
 input {
   
@@ -69,11 +76,27 @@ input {
   border-radius: 5px;
   cursor:pointer;
   margin-top: 10px;
-  margin-left: 180px;
-  margin-right:  50px;
+  margin-right: 120px;
+  margin-left:  -650px;
   
 
 }
+.btn-group .input {
+  margin-left: 200px;
+}
+
+.btn-group .button-2 {
+  background-color:maroon;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  font-size: 4;
+  border-radius: 20px;
+  cursor:pointer;
+  margin-left: 730px;
+  
+}
+
 
 
 
@@ -92,7 +115,7 @@ input {
     height: 400px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -20px;
+    margin-top: 1px;
     display: block;
     opacity: 0.9;
     border-radius: 8px;
@@ -105,8 +128,8 @@ input {
     margin-bottom: -30%;
     display: block;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
 }
 
 .img3 {
@@ -133,7 +156,7 @@ input {
 
 }
 .views-1 .img4{
-  margin-bottom: -260px;
+  margin-bottom: -250px;
 }
 
 .views-2 .img4{
@@ -155,10 +178,21 @@ input {
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  margin-top:-22px ;
+  margin-top:60px ;
   margin-left: 1050px;
 
 }
+
+.imgnav {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-top:10px ;
+  margin-left: 850px;
+  height: 30px;
+  width: 30px;
+}
+
 .img7 {
   width: 260px;
   height: 150px;
@@ -166,6 +200,17 @@ input {
   margin-top:-10px ;
   margin-left: 1030px;
   border-radius: 8px;
+}
+
+.fmg{
+  margin-right: 10px;
+  margin-top:  10px;
+  margin-bottom: 10px;
+  display: block;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+
 }
 
 
@@ -238,8 +283,9 @@ input {
 .link {
   color: #000;
   margin-left: 1100px;
-  margin-top: 50px;
+  top: 90px;
   text-align:justify;
+  position: relative;
 }
 .follow-us {
     padding-left: 10px;
@@ -248,19 +294,47 @@ input {
     padding-bottom: 10px;
     width: 235px;
     height: 450px;
-    border-radius: 8px;
-    background-color: burlywood;
+    border-radius: 0px;
+    background-color: white;
     background-position: 50px 30px ;
     border-color: black;
     margin-left:1030px;
     margin-top: 80px;
-    border-width: 3px;
+    border-width:1px;
     border-style:solid;
 }
 
 h5.follow-us {
   cursor: pointer;
  
+
+}
+
+.feed {
+    position: relative;
+    padding-left: 10px;
+    padding-top: 10px ;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+    height: 300px;
+    border-radius: 0px;
+    background-color: white;
+    background-position: 50px 30px ;
+    border-color: black;
+    margin-left:3px;
+    bottom: 1810px;
+    border-width: 1px;
+    border-style:solid;
+    top: -1100px;
+
+}
+
+.feed1 {
+
+  cursor: pointer;
+  margin-top: -30px;
+
 
 }
 
@@ -281,14 +355,14 @@ h5.follow-us {
     max-height: 38vh;
     height: 800px;
     
-    border-radius: 8px;
-    background-color:blanchedalmond;
+    border-radius: 0px;
+    background-color:white;
     
     border-color: black;
     margin-left: 222px;
     text-align:left;
-    margin-top: cm;
-    bottom: 695px;
+    
+    top: -1000px;
     opacity: 69.7%;
     
 }
@@ -300,8 +374,8 @@ h5.follow-us {
     position:relative;
     max-width: 115vh;
     max-height: 38vh;
-    border-radius: 8px;
-    background-color:blanchedalmond;
+    border-radius: 0px;
+    background-color:white;
     border-color: black;
     margin-left: 222px;
     bottom: 665px;
@@ -309,6 +383,7 @@ h5.follow-us {
     border-width: 2px;
     text-align: left;
     opacity: 69.7%;
+    top: -980px;
     
 
 }
@@ -328,8 +403,10 @@ h5.follow-us {
   scrollbar-color: rebeccapurple green;
   scrollbar-width: thin;
   margin-left: 1030px;
-  margin-top: 80px;
+  margin-top: 50px;
   border:groove;
+  background: white;
+  margin-top: 130px;
 }
 
 
